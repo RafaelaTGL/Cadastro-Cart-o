@@ -19,6 +19,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Formulário</title>
 </head>
 
@@ -51,7 +52,7 @@
 
 
                     <label for="validade_cartao">Validade do cartão:</label>
-                    <input type="month" name="validade_cartao" id="validade_cartao" required>
+                    <input type="date" name="validade_cartao" id="validade_cartao" required>
 
 
                 <br><br>
